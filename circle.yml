@@ -1,5 +1,5 @@
 general:
-  build_dir: api
+  build_dir: travis-aws-test
 deployment:
   prod:
     branch: master
