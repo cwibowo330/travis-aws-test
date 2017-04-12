@@ -1,0 +1,5 @@
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync travis-aws-test s3://s3-us-west-1.amazonaws.com/www.cwibowo.com --delete
