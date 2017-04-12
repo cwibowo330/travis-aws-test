@@ -7,4 +7,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync ./travis-aws-test s3://www.cwibowo.com --delete --recursive --cache-control max-age=0
+      - aws s3 sync ./travis-aws-test s3://www.cwibowo.com --cache-control max-age=0 --delete 
